@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'demo.publish:lib:1.1'
+}
